@@ -1,0 +1,43 @@
+body {
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+}
+
+a:link {
+	color: cyan;
+}
+
+a:visited {
+	color: lime;
+}
+
+a:hover {
+	color: blue;
+}
+
+#header {
+	text-align: center;
+	background-color: gray;
+	border: 1px dashed white;
+	margin: 1px;
+	padding: 10px;
+}
+
+#header h1 {
+	margin: 10px;
+	font-size: 3em;
+}
+
+#header a {
+	margin: 5px;
+}
+
+#search {
+	text-align: center;
+	margin: 5px;
+}
+
+#footer {
+	text-align: center;
+}
