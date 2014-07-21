@@ -1,0 +1,52 @@
+body {
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/*a:link {
+	color: cyan;
+}
+
+a:visited {
+	color: lime;
+}
+
+a:hover {
+	color: blue;
+}*/
+
+#header {
+	text-align: center;
+	background-color: gray;
+	border: 1px dashed white;
+	margin: 1px;
+	padding-bottom: 20px;
+}
+
+#header h1 {
+	margin: 10px;
+	font-size: 3em;
+}
+
+#header ul li {
+	background-color: #87cefa;
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#search {
+	text-align: center;
+	margin: 10px;
+}
+
+#footer {
+	text-align: center;
+}

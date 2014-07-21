@@ -2,20 +2,24 @@
 <html>
 	<head>
 		<title>Pokemon</title>
-		<link type="text/css" rel="stylesheet" href="reset.css" />
-		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 
 	<body>
 		<div id="header">
 			<h1>Pokemon</h1>
-			<a href="main.html">Home</a>
-			<a href="http://www.serebii.net/index2.shtml">Serebii</a>
-			<a href="http://bulbapedia.bulbagarden.net">Bulbapedia</a>
+			<ul>
+				<a href="main.html"><li>Home</li></a>
+				<a href="http://www.serebii.net/index2.shtml"><li>Serebii</li></a>
+				<a href="http://bulbapedia.bulbagarden.net"><li>Bulbapedia</li></a>
+			</ul>
 		</div>
 
 		<form id="search" action="" method="post">
-			<input type="text" name="searchText"/>
+			<input type="text" name="searchInput"/>
 			<input type="submit" name="searchButton" value="Search" />
 		</form>
 
