@@ -13,15 +13,17 @@
 			<h1>Pokemon</h1>
 			<ul>
 				<a href="main.html"><li>Home</li></a>
-				<a href="http://www.serebii.net/index2.shtml"><li>Serebii</li></a>
-				<a href="http://bulbapedia.bulbagarden.net"><li>Bulbapedia</li></a>
+				<li id="serebiiButton">Serebii</li>
+				<li id="bulbapediaButton">Bulbapedia</li>
 			</ul>
+
+			<form id="search" action="" method="post" name="search">
+				<input type="text" name="searchInput"/>
+				<input type="submit" id="searchButton" value="Search" />
+			</form>
 		</div>
 
-		<form id="search" action="" method="post">
-			<input type="text" name="searchInput"/>
-			<input type="submit" name="searchButton" value="Search" />
-		</form>
+		<div id="content"></div>
 
 		<div id="footer">
 			<a href="#header">Go to the top</a>
